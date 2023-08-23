@@ -1,27 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "buildybunchmod",
   "version": "${version}",
   "name": "tempmodE",
   "description": "rara o rara, for see my ro-mama bad mama",
-  "authors": [
-    "hand",
-    "gagreflex"
-  ],
+  "authors": ["hand", "gagreflex"],
   "contact": {
     "homepage": "https://thebuildybunch.github.io",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
   "license": "",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/buildybunchmod/icon.png",
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "com.example.ExampleMod"
-    ],
-    "client": [
-      "com.example.ExampleModClient"
-    ]
+    "main": ["com.example.BuildyBunchMod"],
+    "client": ["com.example.ExampleModClient"]
   },
   "mixins": [
     "modid.mixins.json",
